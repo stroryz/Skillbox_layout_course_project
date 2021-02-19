@@ -14,7 +14,14 @@ const swiperGallery = new Swiper(".gallery__swiper-container", {
       slidesPerGroup: 3,
       breakpoints: {
         1700: {
+          spaceBetween: 50,
+        },
+        1440: {
           spaceBetween: 30,
+        },
+        1200: {
+          spaceBetween: 30,
+          slidesPerView: 2,
         },
       },
       });
