@@ -634,14 +634,17 @@ body {
 
 .gallery__swiper-slide {
   display: grid;
+  /* justify-items: stretch; */
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 50px;
+  /* width: 100%; */
 }
 
 .gallery__img {
   width: 100%;
   height: auto;
   /* margin: 0; */
+  justify-self: stretch;
   margin: auto;
 }
 /* Ховер для галереи - начало */
@@ -920,7 +923,7 @@ body {
 }
 
 .catalogue-tab__img {
-  width: 100%;
+  width: 94%;
   height: auto;
   margin-bottom: 24px;
 }
@@ -1039,7 +1042,10 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   margin: 0;
-  padding: 25px 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 45px;
+  padding-left: 0;
   list-style-type: none;
   border-top: 1px solid var(--page-purple);
   border-bottom: 1px solid var(--page-purple);
@@ -1674,7 +1680,7 @@ body {
 /* Contacts
 ===================================================================================================*/
 .contacts {
-  padding-top: 40px;
+  padding-top: 28px;
 }
 
 .contacts__title {
