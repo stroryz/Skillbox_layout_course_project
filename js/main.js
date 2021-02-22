@@ -21,7 +21,7 @@ const swiperGallery = new Swiper(".gallery__swiper-container", {
         },
         1200: {
           spaceBetween: 30,
-          slidesPerView: 2,
+          // slidesPerView: 2,
         },
       },
       });
