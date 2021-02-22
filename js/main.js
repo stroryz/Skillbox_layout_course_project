@@ -15,13 +15,21 @@ const swiperGallery = new Swiper(".gallery__swiper-container", {
       breakpoints: {
         1700: {
           spaceBetween: 50,
+          slidesPerView: 3,
         },
         1440: {
           spaceBetween: 30,
+          slidesPerView: 3,
         },
+        // TODO Настроить слайдер под адаптив
         1200: {
+<<<<<<< HEAD
           spaceBetween: 30,
           // slidesPerView: 2,
+=======
+          spaceBetween: 10,
+          slidesPerView: 3,
+>>>>>>> 0423546ab8c39faa7a54221ab13f70031b25a19d
         },
       },
       });
