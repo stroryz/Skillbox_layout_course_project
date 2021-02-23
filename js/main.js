@@ -23,13 +23,10 @@ const swiperGallery = new Swiper(".gallery__swiper-container", {
         },
         // TODO Настроить слайдер под адаптив
         1200: {
-<<<<<<< HEAD
           spaceBetween: 10,
           slidesPerView: 2,
-=======
           spaceBetween: 30,
           // slidesPerView: 2,
->>>>>>> e28a22e2237d03b2d694730e9d3b2241f6fd9a4a
         },
       },
       });
