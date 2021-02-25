@@ -24,8 +24,8 @@ const swiperGallery = new Swiper(".gallery__swiper-container", {
         // TODO Настроить слайдер под адаптив
         1200: {
           spaceBetween: 10,
-          slidesPerView: 2,
-          spaceBetween: 30,
+          slidesPerView: 3,
+          // spaceBetween: 30,
           // slidesPerView: 2,
         },
       },

@@ -513,6 +513,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-right: 50px;
 }
 
 .gallery__select-label {
@@ -524,7 +525,7 @@ body {
 }
 
 .choices {
-  width: 400px;
+  width: 100%;
 }
 
 .choices__inner {
@@ -627,9 +628,8 @@ body {
 }
 /* TODO Доработать слайдер для адаптива */
 .swiper-container {
-  /* width: 100%; */
-  /* height: 100%; */
-  /* height: auto; */
+  width: 100%;
+  height: auto;
 }
 
 .gallery__swiper-container {
@@ -1888,9 +1888,7 @@ body {
   .hero__title {
     width: 42%;
   }
-  .choices {
-    width: 300px;
-  }
+
   .gallery__pagination {
     left: 380px;
   }
@@ -1990,7 +1988,7 @@ body {
   }
 
   .gallery__swiper-slide {
-    /* max-width: 300px; */
+    grid-gap: 10px;
   }
 }
 
