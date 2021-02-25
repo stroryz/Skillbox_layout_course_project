@@ -173,6 +173,12 @@ const swiperPartners = new Swiper('.partners__swiper-container', {
     1700: {
       spaceBetween: 20,
     },
+    1440: {
+      slidesPerView: 3,
+    },
+    1200: {
+      slidesPerView: 2,
+    },
   },
 });
 

@@ -666,9 +666,14 @@ body {
   display: block;
   top: 25px;
   left: 25px;
-  width: 300px;
-  height: 300px;
+  bottom: 25px;
+  right: 25px;
+  /* width: 300px; */
+  width: auto;
+  /* height: 300px; */
+  height: auto;
   background-image: url(../img/hover_gallery.svg);
+  background-size: cover;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -1649,12 +1654,14 @@ body {
 }
 
 .partners__slider {
-  width: 1450px;
+  /* max-width: 100%; */
+  max-width: 1450px;
 }
-
+/* TODO Фиксить */
 .partners__swiper-slide {
-  width: 450px;
-  height: auto;
+  /* width: 100%; */
+  /* width: 450px; */
+  /* height: auto; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1894,14 +1901,10 @@ body {
   }
   .gallery__swiper-slide {
     /* width: 100%; */
-    width: auto;
+    /* width: auto; */
     grid-gap: 30px;
   }
-  .gallery__slide-wrapper::after {
-    width: 255px;
-    height: 255px;
-    background-size: cover;
-  }
+
   .catalogue__content {
     justify-content: space-between;
   }
@@ -1987,8 +1990,49 @@ body {
     font-size: 16px;
   }
 
+  .gallery__pagination {
+    left: 300px;
+  }
+
   .gallery__swiper-slide {
     grid-gap: 10px;
+  }
+
+  .gallery__slide-wrapper::after {
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    width: auto;
+    height: auto;
+    /* background-size: cover; */
+  }
+
+  .accordeon__item {
+    font-size: 13px;
+    line-height: 26px;
+  }
+
+  .events__card {
+    width: 343px;
+    padding-bottom: 13px;
+  }
+
+  .events__card:not(:nth-child(3n + 3)) {
+    margin-right: 20px;
+  }
+
+  .events__card-title {
+    font-size: 22px;
+  }
+
+  .events__text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .books__pagination {
+    left: 362px;
   }
 }
 
